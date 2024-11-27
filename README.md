@@ -1,12 +1,15 @@
-# Healthy Habits - A Full Stack Fitness Tracker App
----
+This application enables users to create and manage a **Healthy Habits** account. Upon registration, users' **BMI**, **daily EER**, and **DRI requirements** (based on USDA guidelines) are calculated and displayed on their personalized dashboard. Users can set and manage their **food** and **exercise goals** through dedicated tabs. Settings can be updated, and changes will reflect on their dashboard and goals. The app allows users to track food intake and exercises, which are recorded under their respective goals, and progress is shared under **Shared Updates** as goals are achieved.
 
-This application allows users to register and login to a Healthy Habits account. A user's BMI and daily EER and DRI requirements are calculated (based on USDA guidelines) upon registration which are reflected under their personal dashboard. Food and exercise goals are then added under the Food and Exercise tabs. User's can edit their settings which will be reflected back to their dashboard and goals. Food consumption and exercises can be tracked under the Exercise and Food tabs which will be recorded under their goals. Users can then choose to share their progress which will then be reflected under Shared Updates. Goals will decrease as users meet them. 
+Users can search for and connect with others by sending friend requests, which appear in **Pending Requests**. Once accepted, friends are listed under **Friends**, and they can view each other's shared progress.
 
-Users can also search for other users and add them as friends. A request will be sent which can be found under Pending Requests. Once accepted, friends can be found under Friends. Friends can view each other's shared progress.
+This application is built using the **MEVN stack** (MongoDB, Express, Vue.js, and Node.js). 
 
-This app utilizes the MEVN stack - MongoDB, Express, Vue.js and Node.js.
+### Features:
+- **Personal Dashboard**: Displays BMI, EER, DRI, and goals.
+- **Goal Management**: Set, update, and track food and exercise goals.
+- **Progress Sharing**: Share progress updates with others.
+- **Social Features**: Add friends, view shared progress, and manage friend requests.
 
-For Project Setup, read the README.md file under the client folder.
+For **project setup**, refer to the `README.md` file in the **client** folder.
 
-Stay tuned for more updates!
+Stay tuned for exciting updates and features!
